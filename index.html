@@ -37,28 +37,28 @@
   </div>
 </article>
 
-<form action="" class="contact-form">
+<form action="form-to-email.php" method="post" name="ccontact_form" class="contact-form">
   <span>
     Your Name:
   </span>
-  <input type="text" class="contact-form__input">
+  <input type="text" name="name" class="contact-form__input">
   <br>
   <span>
     Your Telephone number:
   </span>
-  <input type="text" class="contact-form__input">
+  <input type="text" name="telephone" class="contact-form__input">
   <br>
   <span>
     Your Email address:
   </span>
-  <input type="text" class="contact-form__input">
+  <input type="text" name="email" class="contact-form__input">
   <br>
   <span>
     Your Enquiry:
   </span>
-  <input type="text" class="contact-form__input contact-form__input--enquiry">
+  <input type="text" name="enquiry" class="contact-form__input contact-form__input--enquiry">
   <br>
-  <button type="submit" class="contact-form__button button">Send</button>
+  <button type="submit" value="Send Form" class="contact-form__button button">Send</button>
   <p>We are aiming to respond to all enquiries within 24 hours.</p>
 </form>
 
