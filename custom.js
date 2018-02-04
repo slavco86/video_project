@@ -1,4 +1,4 @@
-const button = document.querySelector('.button');
+const button = document.querySelector('.about-button');
 const text = document.querySelector('.about-section__content__text');
 var count = 0;
 button.addEventListener('click', function(e) {
